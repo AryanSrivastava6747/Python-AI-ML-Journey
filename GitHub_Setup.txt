@@ -1,0 +1,49 @@
+============================================================
+       GIT & GITHUB SETUP GUIDE (FOR FUTURE REFERENCE)
+============================================================
+
+📌 Repository: https://github.com/AryanSrivastava6747/Python-AI-ML-Journey
+📺 Course: Complete Python for AI & ML (Not Your College)
+
+------------------------------------------------------------
+STEP 1: PEHLI BAAR SETUP KARTE WAQT (SIRF EK BAAR)
+------------------------------------------------------------
+Apne laptop ke project folder ko VS Code me open karein, 
+Terminal (Ctrl+`) kholein aur ye commands chalayein:
+
+1. Git initialize karein:
+   git init
+
+2. GitHub repository ko apne local folder se jodein:
+   git remote add origin https://github.com/AryanSrivastava6747/Python-AI-ML-Journey.git
+
+3. GitHub par bani README file ko apne computer me pull karein:
+   git pull origin main
+
+4. Apni local branch ka naam badal kar 'main' karein (Kyunki default 'master' ban jata hai):
+   git branch -M main
+
+5. Pehli baar code ko GitHub par push karein:
+   git push -u origin main
+
+*(Note: Agar browser popup aaye toh login karke authorize kar dein)*
+
+
+------------------------------------------------------------
+STEP 2: DAILY WORKFLOW (HAR BAAR CODE BHEJNE KE LIYE)
+------------------------------------------------------------
+Jab bhi aap VS Code me naya code likhein ya purana change karein, 
+toh bas ye 3 commands chalani hain:
+
+1. Saari nayi files ko stage/add karein:
+   git add .
+
+2. Apne badlav ke liye ek message likhein:
+   git commit -m "Your commit message here"
+
+3. Code ko GitHub par bhej dein:
+   git push
+
+============================================================
+             💻 KEEP LEARNING #TillTheEnd 🚀
+============================================================
